@@ -1,21 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
+    color: #fff;
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/13/37/240_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg);
+    background-size: 100vw;;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 .container {
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
     text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 .btn {
@@ -23,28 +33,20 @@ body {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    margin: 10px 0;
     cursor: pointer;
     border-radius: 4px;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .btn:hover {
     background-color: #0056b3;
 }
 
-.hide {
-    display: none;
+a {
+    color: #007bff;
 }
 
-#answer-form {
-    text-align: left;
-}
-
-#answer-form .form-group {
-    margin-bottom: 15px;
-}
-
-#answer-form input[type="radio"] {
-    margin-right: 10px;
+a:hover {
+    text-decoration: underline;
 }
